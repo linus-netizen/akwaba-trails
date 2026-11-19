@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AkwaabaTrails</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="p-2 m-2">
+        <!-- MOBILE ONLY     -->
+        <div class="p-2 fixed z-50 top-0 left-0 right-0 md:hidden lg:hidden flex gap-4 justify-between items-center hover:backdrop-blur-lg bg-gray-300 hover:bg-gray-400 ">
+
+            <img src="../akwabatrails/images/logo.png" alt="logo" class="w-20">
+
+
+        <div class="flex gap-6 items-center">
+
+            <button type="button" class="hover:text-blue-600 active:text-blue-900"><i class="fa-solid fa-magnifying-glass"></i></button>
+            
+            <details>
+                <summary class="list-none hover:text-blue-600 active:text-blue-900"><i class="fa-solid fa-bars text-2xl"></i></summary>
+
+                <nav class="absolute top-full left-0 w-full flex flex-col items-center gap-1 bg-gray-100">
+                    <a href="#" class="active:text-blue-600">Home</a>
+                    <select >
+                        <option class="active:text-blue-600">Destination</option>
+                    </select>
+                    <select>
+                        <option>Tours</option>
+                    </select>
+                    <a href="#" class="active:text-blue-600" >About</a>
+                    <a href="#" class="active:text-blue-600">Contact</a>
+                </nav>
+            </details>
+        </div>   
+        </div>
+        <!-- MOBILE ONLY NAV BAR -->
+
+    </header>
+
+
+    <main>
+        <!-- hero -->
+        <section class="bg-[url(images/hero.jpg)] p-4 relative ">
+
+            <button class="shadow-lg text-white text-sm p-2 rounded-full px-2  border-1 mt-4 mb-2 "><i class="fa-solid fa-location-dot text-orange-400 "></i> Explore Ghana</button>
+
+
+            <h1 class="text-white text-4xl font-extrabold tracking-tight">Discover Ghana. <br><span class="text-yellow-500">Experience More.</span></h1>
+
+            <p class="text-white mb-6">Explore breathaking destinations, rich culture,<br> and unforgetable adventures with AKWABA TRAILS.<br>Your journey into the heart of Ghana starts here.</p>
+
+        <div class="flex gap-6">
+
+            <button class="text-white rounded-full px-4 py-2 bg-orange-600">Explore Tours <i class="fa-solid fa-arrow-right"></i></button>
+
+            <button class="text-white rounded-full px-4 py-2 border-2 "> <i class="fa-solid fa-play"></i></i>  Watch Video</button>
+        </div>
+        </section>
+
+
+
+
+    <section class="grid grid-cols-1 gap-6 items-center p-4">
+
+
+        <div class="flex flex-col items-center gap-3 mt-4 ">
+            <label class="text-xl"><i class="fa-solid fa-location-dot text-orange-400 text-4xl "></i> Destination</label>
+            <select class="px-2 py-1 ring rounded-full w-full text-center">
+                <option class="">Select a Destination</option>
+                <option>Accra</option>
+                <option>Kumasi</option>
+                <option>Tamale</option>
+            </select>
+        </div>
+
+        <div class="flex flex-col items-center gap-2 ">
+            <label class="text-xl"><i class="fa-solid fa-calendar-days text-4xl"></i> Travel Date</label>
+            <details >
+                <summary class="list-none">Choose a Date <i class="fa-solid fa-angle-down"></i></summary>
+             <input type="date">
+            </details>
+        </div>
+
+
+        <div class="flex flex-col items-center gap-2 ">
+            <label class="text-xl"><i class="fa-solid fa-user-group text-4xl"></i> Guests</label>
+            <select class="ring rounded-full w-full px-6 py-1 text-center">
+                <option class="">1 Guest</option>
+                <option>2 Guests</option>
+                <option>3+ Guests </option>
+            </select>
+        </div>
+
+
+        
+            <button class="text-white rounded-full px-4 py-2 bg-orange-600">Search Tour <i class="fa-solid fa-arrow-right"></i></button>
+        
+
+
+    </section>
+
+
+    <section class="mt-4 text-center p-6 ">
+        <p class="text-sm text-orange-500 font-bold"><i class="fa-solid fa-grip-lines text-orange-500 font-bold"></i> POPULAR DESTINATIONS <i class="fa-solid fa-grip-lines text-orange-500 font-bold"></i></p>
+
+        <h2 class="text-gray-900 font-extrabold text-2xl">Must-See Places in Ghana</h2>
+        <p class="text-sm text-gray-500 mb-6">Explore iconic landmarks and hidden gems accross the country.</p>
+
+     <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">   
+
+
+        <div class="mb-6 max-w-sm rounded-lg shadow-lg relative bg-gray-200">
+            <img src="../akwabatrails/images/capecoast.jpg" alt="capecoast" class=" rounded-xl"  >
+
+            <div class="absolute bottom-20 left-6 py-2">
+                <h3 class=" text-white text-2xl text-left ">Cape Coast <br> Castle</h3>
+                <p class="text-white  "> <i class="fa-solid fa-location-dot text-orange-500"></i> Central Region</p>
+
+
+                
+            </div>
+            <i class="fa-solid fa-circle-arrow-right absolute bottom-20 right-2 text-4xl text-white animate-bounce"></i>
+
+            <h3 class="text-left relative mt-3 p-2">Explore Ghana's powerful history and coastal herritage through a guided tour.</h3>
+        </div>
+
+
+
+        <div class="mb-6 max-w-sm rounded-lg shadow-lg relative bg-gray-200">
+            <img src="../akwabatrails/images/kakum.jpg" alt="capecoast" class=" rounded-xl"  >
+
+            <div class="absolute bottom-20 left-6 py-2">
+                <h3 class=" text-white text-2xl text-left ">Kakum <br> National Park</h3>
+                <p class="text-white  "> <i class="fa-solid fa-location-dot text-orange-500"></i> Central Region</p>
+
+
+                
+            </div>
+            <i class="fa-solid fa-circle-arrow-right absolute bottom-20 right-2 text-4xl text-white animate-bounce"></i>
+
+            <h3 class="text-left relative mt-3 p-2">Walk high above the rain forest floor and discover Ghana's incredible biodiversity.</h3>
+        </div>
+
+
+
+        <div class="mb-6 max-w-sm rounded-lg shadow-lg relative bg-gray-200">
+            <img src="../akwabatrails/images/labadi-beach.jpg" alt="capecoast" class=" rounded-xl"  >
+
+            <div class="absolute bottom-20 left-6 py-2">
+                <h3 class=" text-white text-2xl text-left ">Labadi<br> Beach</h3>
+                <p class="text-white  "> <i class="fa-solid fa-location-dot text-orange-500"></i> Greater Accra</p>
+
+
+                
+            </div>
+            <i class="fa-solid fa-circle-arrow-right absolute bottom-20 right-2 text-4xl text-white animate-bounce"></i>
+
+            <h3 class="text-left relative mt-3 p-2">Relax by the Atlantic ocean and enjoy Ghana's lively coastal atmosphere.</h3>
+        </div>
+
+
+
+        <div class="mb-6 max-w-sm rounded-lg shadow-lg relative bg-gray-200">
+            <img src="../akwabatrails/images/Wli-falls.jpg" alt="capecoast" class=" rounded-xl"  >
+
+            <div class="absolute bottom-20 left-6 py-2">
+                <h3 class=" text-white text-2xl text-left ">Cape Coast <br> Castle</h3>
+                <p class="text-white  "> <i class="fa-solid fa-location-dot text-orange-500"></i> Volta Region</p>
+
+
+                
+            </div>
+            <i class="fa-solid fa-circle-arrow-right absolute bottom-20 right-2 text-4xl text-white animate-bounce"></i>
+
+            <h3 class="text-left relative mt-3 p-2">Experience spectacular waterfalls surrounded by lush tropical scenery.</h3>
+        </div>
+
+    </div>
+
+    </section>
+
+
+
+
+
+
+
+    <section class="mt-4 text-center p-6 ">
+
+         <p class="text-sm text-orange-500 font-bold"><i class="fa-solid fa-grip-lines text-orange-500 font-bold"></i> POPULAR EXPERIENCE <i class="fa-solid fa-grip-lines text-orange-500 font-bold"></i></p>
+
+        <h2 class="text-gray-900 font-extrabold text-2xl">Unforgetable Experience</h2>
+        <p class="text-sm text-gray-500 mb-6">Discove rthe new ways to experience the beauty, culture and Adventure of Ghana.</p>
+
+    <div class="grid grid-cols-1 gap-6">   
+
+        <div class="flex flex-col items-center">
+
+            <div class="rounded-full bg-orange-400 text-2xl w-20 h-20 text-center ">
+                <i class="fa-solid fa-plane-departure mt-6 text-white"></i>
+            </div>
+            <h3 class="text-sm font-bold">Guided Tours</h3>
+            <p class="text-sm text-gray-500">Explore with Experienced local guides.</p>
+        </div>
+
+
+        <div class="flex flex-col items-center">
+
+            <div class="rounded-full bg-yellow-400 text-2xl w-20 h-20 text-center ">
+                <i class="fa-solid fa-drum mt-6 text-white"></i>
+            </div>
+            <h3 class="text-sm font-bold">Cultural Tours</h3>
+            <p class="text-sm text-gray-500">Discover traditions, heritage, music and local cuisine.</p>
+        </div>
+
+
+        <div class="flex flex-col items-center">
+
+            <div class="rounded-full bg-emerald-400 text-2xl w-20 h-20 text-center ">
+                <i class="fa-solid fa-mountain mt-6 text-white"></i>
+            </div>
+            <h3 class="text-sm font-bold">Adventure Trips</h3>
+            <p class="text-sm text-gray-500">Enjoy hiking, waterfalls, wildlife, and outdoor fun.</p>
+        </div>
+
+
+
+        <div class="flex flex-col items-center">
+
+            <div class="rounded-full bg-green-600 text-2xl w-20 h-20 text-center ">
+                <i class="fa-solid fa-umbrella-beach mt-6 text-white"></i>
+            </div>
+            <h3 class="text-sm font-bold">Beach Holidays</h3>
+            <p class="text-sm text-gray-500">Relax on beaches and enjoy coastal experience.</p>
+        </div>
+
+
+
+
+
+
+    </div> 
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    
+</body>
+</html>
